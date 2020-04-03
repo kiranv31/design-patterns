@@ -6,6 +6,8 @@ public class DecoyDuck extends Duck{
     public DecoyDuck(QuackBehaviour quackBehaviour, FlyBehaviour flyBehaviour){
         super(quackBehaviour, flyBehaviour);
     }
+
+    @Override
     public void display(){
         System.out.println("looks like Rubber duck");
     }

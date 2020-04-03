@@ -19,4 +19,12 @@ public class MochaCoffee extends Coffee{
     public String getDescription() {
         return description;
     }
+
+    public void setPrice(double price){
+        this.price = price;
+    }
+
+    public void setDesicription(String description){
+        this.description = description;
+    }
 }

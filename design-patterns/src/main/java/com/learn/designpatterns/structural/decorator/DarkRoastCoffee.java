@@ -10,7 +10,7 @@ public class DarkRoastCoffee extends Coffee{
         description = " Dark Roast Coffee ";
     }
 
-@Override
+    @Override
     public double getPrice() {
         return price;
     }
@@ -20,4 +20,11 @@ public class DarkRoastCoffee extends Coffee{
         return description;
     }
 
+    public void setPrice(double price){
+        this.price = price;
+    }
+
+    public void setDesicription(String description){
+        this.description = description;
+    }
 }
